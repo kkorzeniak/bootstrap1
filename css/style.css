@@ -1,0 +1,256 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #777777;
+}
+
+section {
+    padding: 50px;
+}
+
+h1,
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+
+
+
+/* NAVIGATION */
+nav .navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    color: white;
+    font-size: 25px;
+}
+
+nav .navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+nav .navbar-brand:hover,
+nav .nav-link:hover {
+    color: #0ed8d6;
+    transition: all 0.4s;
+}
+
+#main-nav {
+    background-color: transparent;
+    transition: all 0.4s;
+}
+
+#main-nav.scrolled {
+    background-color: rgba(14, 216, 214, 1);
+}
+
+/* HEADER */
+
+.main-header {
+    height: 100vh;
+    width: 100%;
+    /*MASKA*/
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url(../img/header/pictures_on_the_wall.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+.main-header .header-items {
+    margin: auto;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+
+.header-items h1 {
+    color: #fff;
+    font-weight: 700;
+    font-size: 42px;
+    text-transform: uppercase;
+    margin: 25px 0;
+}
+
+.header-items h2 {
+    color: #fff;
+    font-style: italic;
+    margin: 0;
+}
+
+.main-header .btn {
+    background-color: #0ed8d6;
+    border: 2px solid #0ed8d6;
+    color: #fff;
+    margin-top: 5px;
+    padding: 10px 15px;
+    transition: all 0.4s;
+}
+
+.main-header .btn:hover {
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+
+/* SERVICES */
+
+#services {
+    height: 500px;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 150px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title h1 {
+    font-weight: 700;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.title p {
+    font-style: italic;
+    margin: 20px 0;
+}
+
+.tile {
+    text-align: center;
+    margin-top: 20px;
+}
+.tile h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #0ed8d6;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /*CENTROWANIE ZA POMOCA FLEXa*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
+    background-color: #fff;
+    color: #0ed8d6;
+}
+
+/* PORTFOLIO */
+#portfolio {
+    background-color: #f7f7f7 ;
+}
+
+#portfolio header{
+    margin-bottom: 30px;
+}
+
+.element {
+    background-color: #fff;
+}
+
+.pic {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 350px;
+    transition: all 0.5s ease-in-out;
+}
+
+.pic:hover {
+    transform: scale(1.5);
+}
+
+.overflowed {
+    overflow: hidden;
+}
+
+.p1 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+}
+
+.p2 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+}
+
+.p3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+}
+
+.p4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+}
+
+.p5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+}
+
+.p6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+}
+
+.element h4 {
+    font-weight: 700;
+    padding: 10px 10px 0 10px;
+    color: black;
+    margin-bottom: 10px
+}
+
+.element p {
+    padding: 0 10px 10px 10px;
+}
+
+.mask {
+    height: 350px;
+    background-color: rgba(14, 216, 214, 0);
+    transition: all 0.4s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mask i {
+    color: rgba(255, 255, 255, 0);
+    font-size: 35px;
+    transition: all 0.4s;
+}
+
+.mask:hover {
+    background-color: rgba(14, 216, 214, 0.6);
+}
+
+.mask:hover i {
+    color: rgba(255, 255, 255, 1)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
